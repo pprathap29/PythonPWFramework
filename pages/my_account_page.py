@@ -52,6 +52,7 @@ class MyAccountPage:
         except Exception as e:
             print(f"Unable to click Logout link: {e}")
             raise e
+
     def page_title(self):
         try:
             return self.page.title()
