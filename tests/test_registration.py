@@ -4,7 +4,7 @@ from pages.home_page import HomePage
 from pages.registration_page import Registration
 from utilities.radom_data_util import RandomDataUtil
 
-
+@pytest.mark.sanity
 def test_user_registration(page):
 
     home_page = HomePage(page)
